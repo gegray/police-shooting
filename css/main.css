@@ -45,3 +45,11 @@ a {
 .rUnknown {
 	color: LightSlateGray;
 }
+
+.leaflet-popup-content-wrapper {
+	background-color: #222;
+}
+
+.leaflet-container a {
+  color: Orange;
+}
