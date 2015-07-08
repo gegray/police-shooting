@@ -1,1 +1,47 @@
 /* You'll probably want to add some styles here */
+
+body {
+	font-family: 'Chivo', Helvetica, Arial, sans-serif;
+	font-size: 12pt;
+	margin: auto;
+	background-color: #222;
+	color: Azure;
+}
+
+h1 {
+	font-size: 18pt;
+	font-weight: 900;
+}
+
+a {
+	color: Orange;
+}
+
+#header {
+	text-align: left;
+	margin-left: 18pt;
+}
+
+#container {
+	
+}
+
+#t1 {
+	margin: 18pt;
+}
+	
+.rBlack {
+	color: Black;
+}
+
+.rWhite {
+	color: DeepSkyBlue;
+}
+
+.rHOrL {
+	color: Crimson;
+}
+
+.rUnknown {
+	color: LightSlateGray;
+}

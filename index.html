@@ -2,21 +2,37 @@
 
 <html>
   <head>
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Chivo:400,900,400italic,900italic' rel='stylesheet' type='text/css'>
+
     <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/map.js"></script>
     <title>Police Shootings</title>
+
     <!-- Get the leaflet.js library and stylesheet -->
     <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+
     <link rel="stylesheet" href="css/main.css"/>
   </head>
 
   <body>
-    <div id="container" style="width:500px; height:500px;"></div>
+    <div id="header">
+      <h1>Crowdsourced Police Shootings in the US</h1>
+    </div>
+    <div id="container" style="width:100%; height:600px;"></div>
     <script>
       
     	// This is where you should execute your drawMap function // 
+      drawMap();
 
     </script>
+    <div id="t1">
+      <p>Police shootings in the United States from 2011-2013. <br><br>
+         Dots are color-coded by race: <span class="rBlack">Black or African American</span>, <span class="rHOrL">Hispanic or Latino origin</span>, <span class="rWhite">White</span>, and <span class="rUnknown">unknown</span>. 
+         Larger dots show persons under the age of 18. This becomes more visible as you zoom. Click on a dot for more info.<br><br>
+         Data sourced from <a href="http://regressing.deadspin.com/deadspin-police-shooting-database-update-were-still-go-1627414202" target="_blank">Deadspin</a>, and many generous volunteers.
+      </p>
+    </div>
   </body>
 </html>
